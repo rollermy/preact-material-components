@@ -90,7 +90,7 @@ class TextFieldInput extends MaterialComponent {
       className = [className, "mdc-text-field--upgraded"].join(" ");
     }
     if (props.label && props.fullwidth) {
-      console.log(
+      console.info(
         'Passing a "label" prop is not supported when using a "fullwidth" text field.'
       );
     }
